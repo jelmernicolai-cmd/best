@@ -1,0 +1,5 @@
+# robots.txt
+User-agent: *
+Allow: /
+# Add your sitemap URL when available, e.g.:
+# Sitemap: https://example.com/sitemap.xml
