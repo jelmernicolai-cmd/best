@@ -1,3 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basiskleuren op de pagina */
+html, body {
+  color: rgb(var(--fg));
+  background: rgb(var(--surface-2));
+}
+
+/* Typografie en smoothing */
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+
 /* globals.css (onder :root) */
 :root{
   --brand:        10 140 240; /* sky-600 vibe */
